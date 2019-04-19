@@ -53,4 +53,9 @@ dθ/ds ; (/ 1 (sqrt (+ r|θ^2 r^2)))
 ;      (* -1 r^2 r|θ (sin θ) (sqrt (+ r|θ^2 r^2)))
 ;      (* -1 r^3 (cos θ) (sqrt (+ r|θ^2 r^2)))))
 
+;;
 ;; 上の答えは因数分解できる（しないといけない）．
+;; 以下のプログラムをWolframに渡すと因数分解できる．
+;;
+;; Simplify[(r^2 r_θ_θ cos(θ) - 2 r_θ^3 sin(θ) - r^2 r_θ sin(θ) - 2 r_θ^2 r cos(θ) - r^3 cos(θ) + r_θ r_θ_θ r sin(θ))/(-r_θ^3 sin(θ) Sqrt[r_θ^2 + r^2] - r_θ^2 r cos(θ) Sqrt[r_θ^2 + r^2] - r^2 r_θ sin(θ) Sqrt[r_θ^2 + r^2] - r^3 cos(θ) Sqrt[r_θ^2 + r^2])]
+;;

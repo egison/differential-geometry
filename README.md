@@ -10,3 +10,9 @@
 
 - [問2.1](https://github.com/egison/differential-geometry/blob/master/kobayashi1995/page12-problem2.1.egi)
 - [問2.2](https://github.com/egison/differential-geometry/blob/master/kobayashi1995/page12-problem2.2.egi)
+
+### 第2章
+
+#### セクション2
+
+- [問2.1](https://github.com/egison/differential-geometry/blob/master/kobayashi1995/page60-problem2.1.egi)
